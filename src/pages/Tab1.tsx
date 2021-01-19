@@ -8,16 +8,20 @@ const Tab1: React.FC = () => {
     <IonPage>
       <IonHeader>
         <IonToolbar>
-          <IonTitle>Tab 1</IonTitle>
+          <IonTitle></IonTitle>
         </IonToolbar>
       </IonHeader>
       <IonContent fullscreen>
-        <IonHeader collapse="condense">
-          <IonToolbar>
-            <IonTitle size="large">Tab 1</IonTitle>
-          </IonToolbar>
-        </IonHeader>
-        <ExploreContainer name="Tab 1 page" />
+
+        <div className="main">
+          <strong>Nadak Radio</strong>
+
+          <audio id='music' controls>
+            <source src="https://coderadio-admin.freecodecamp.org/radio/8010/radio.mp3?1611009242" type="audio/mpeg"></source>
+            Your browser does not support the audio element.
+          </audio>
+        </div>
+
       </IonContent>
     </IonPage>
   );
