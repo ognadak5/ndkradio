@@ -1,5 +1,7 @@
 .main {
   text-align: center;
+  justify-content: center;
+  align-content: center;
   position: absolute;
   left: 0;
   right: 0;
@@ -10,4 +12,12 @@
 .main strong {
   font-size: 20px;
   line-height: 26px;
+  padding-bottom: 5px
+}
+
+.progressbar {
+  margin: 0;
+
+  padding-left: 30%;
+  padding-right: 30%;
 }
