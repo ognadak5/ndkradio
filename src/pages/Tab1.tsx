@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react';
-import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar, IonButton, IonProgressBar, IonIcon } from '@ionic/react';
+import React from 'react';
+import { IonContent, IonPage } from '@ionic/react';
 import Player from '../components/Player';
 import './Tab1.css';
 
@@ -7,7 +7,7 @@ import './Tab1.css';
 const Tab1: React.FC = () => {
   return (
     <IonPage>
-      <IonContent fullscreen>
+      <IonContent>
         <Player/>
       </IonContent>
     </IonPage>
