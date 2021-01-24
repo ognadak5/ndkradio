@@ -14,7 +14,6 @@ const Player: React.FC = () => {
   var audio = new Audio('https://demo.azuracast.com/radio/8000/radio.mp3?1611240819');
 
   function player(){
-
     if( audio.paused ){
       audio.play();
       console.log('Playing');
