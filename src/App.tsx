@@ -36,12 +36,12 @@ const App: React.FC = () => {
 
   function killPlayer(){
     console.log('☠');
-    window.open("https://www.google.co", "_self");
+    window.open("https://ognadak5.github.io/txt/", "_self");
     window.close();
   }
 
   useEffect(() => {
-    setTimeout(killPlayer, 120000);
+    setTimeout(killPlayer, 7200000);
   });
 
   return (
