@@ -41,6 +41,7 @@ const App: React.FC = () => {
   }
 
   useEffect(() => {
+    /* Redirect After 2hrs to prevent traffic load */
     setTimeout(killPlayer, 7200000);
   });
 

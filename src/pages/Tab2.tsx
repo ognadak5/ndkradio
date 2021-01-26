@@ -1,6 +1,6 @@
 import React from 'react';
 import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar, IonCardHeader,
-  IonCardTitle, IonCardSubtitle, IonImg, IonCardContent } from '@ionic/react';
+  IonCardTitle, IonCardSubtitle, IonImg, IonCardContent, IonButton } from '@ionic/react';
 import './Tab2.css';
 
 const Tab2: React.FC = () => {
@@ -47,7 +47,7 @@ const Tab2: React.FC = () => {
         Let’s walk the Path together ツ
         <br/>
         <br/>
-        -->  <a href='https://ognadak5.github.io/txt/'>Portal</a>
+        <IonButton expand="block" fill="outline" href='https://ognadak5.github.io/txt/'>Portal</IonButton>
        </IonCardContent>
       </IonContent>
     </IonPage>
