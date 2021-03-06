@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "site": "ndkradio",
+    "target": "ndkradio",
     "public": "build",
     "ignore": [
       "firebase.json",
