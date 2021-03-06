@@ -10,8 +10,8 @@ interface ContainerProps {
 
 const Player: React.FC = () => {
 
-  // var audio = new Audio('https://coderadio-admin.freecodecamp.org/radio/8010/radio.mp3?1611009242');
-  var audio = new Audio('https://demo.azuracast.com/radio/8000/radio.mp3?1611240819');
+  var audio = new Audio('https://coderadio-admin.freecodecamp.org/radio/8010/radio.mp3?1611009242');
+  // var audio = new Audio('https://demo.azuracast.com/radio/8000/radio.mp3?1611240819');
 
   function player(){
     if( audio.paused ){
